@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    background-color: #222924;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.brand-img {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+
+.nav-item-collection {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.brand {
+    font-size: 30px;
+    margin: 0;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.nav-item {
+    text-align: right;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.brand:hover, .nav-item:hover {
+    color: skyblue;
+    cursor: pointer;
+}
