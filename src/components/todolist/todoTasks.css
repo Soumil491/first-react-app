@@ -1,0 +1,8 @@
+.finished{
+    text-decoration: line-through;
+}
+
+.todoList {
+    display: flex;
+    justify-content: center;
+}

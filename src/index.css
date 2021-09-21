@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .strike {
+    text-decoration: line-through;
+} */
+
+.btn-delete {
+    background-color: #ff4444;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 12px;
+}

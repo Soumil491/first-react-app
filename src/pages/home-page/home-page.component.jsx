@@ -1,13 +1,13 @@
 import React from 'react';
-import './home-page.component.scss';
-import Directory from '../../components/directory/directory.component';
+
+// import Directory from '../../components/directory/directory.component';
 // import Navbar from '../../components/navbar/navbar.component';
+import Todo from '../../components/todo/todo.component';
 
 const HomePage = () => {
     return (
-        <div className="home-page">
-            {/* <Navbar/> */}
-            <Directory/>
+        <div>
+            <Todo />
         </div>
     )
 }
